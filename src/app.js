@@ -5,7 +5,7 @@ const chalk = require('chalk')
 
 
 const app = express()
-const port = 4000
+const port = process.env.PORT || 3000
 const name = 'Ahmed Mohmmed Abdelbast'
 
 //? this is the paths configrations to handlebars
